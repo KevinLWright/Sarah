@@ -104,5 +104,4 @@ var comcastifyjs = (function () {
     letsPrepareTheseImages: prepare,
     fixMyImagesLoadingSoFast: slowImages
   };
-
 })();
