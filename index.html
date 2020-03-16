@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script type="text/javascript" src="comcastify.js"></script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function () {
+           $('#main_content').headsmart();
+         
+           comcastifyjs.letsPrepareTheseImages();
+         
+         });
+         
+         $(window).load(function () {
+         
+           comcastifyjs.fixMyImagesLoadingSoFast({
+             loadMaxPercent: 0.75,
+             loadSpeed: 1000,
+             loadIncrement: 5,
+             boxColor: '#ffffff'
+           })();
+         
+         });
+      </script>
+   </head>
+   <body
+   <div>
+      <img src="Sarah.png" />
+   </div>
+   </body>
+</html>
